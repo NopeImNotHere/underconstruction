@@ -1,6 +1,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "underconstruction",
+	"account_id": "40f5231dee638ac71e55eab5da81e9bc",
 	"pages_build_output_dir": "./.svelte-kit/cloudflare",
 	"compatibility_date": "2025-04-12",
 	"observability": {
