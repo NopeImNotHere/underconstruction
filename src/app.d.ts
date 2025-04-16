@@ -3,11 +3,13 @@
 declare global {
 	namespace App {
 		interface Platform {
-			/* Example Cloudflare bindings */
-			// env: {
-			// 	KV: KVNamespace;
-			// };
-			context: ExecutionContext;
+			env: {
+				COUNTER: DurableObjectNamespace;
+			};
+			context: {
+				waitUntil(promise: Promise<unknown>): void;
+			};
+			caches: CacheStorage & { default: Cache };
 		}
 
 		// interface Locals {}
