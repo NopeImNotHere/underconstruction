@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "underconstruction_homepage",
+	"name": "underconstruction",
 	"pages_build_output_dir": "./.svelte-kit/cloudflare",
 	"compatibility_date": "2025-04-12",
 	"observability": {
