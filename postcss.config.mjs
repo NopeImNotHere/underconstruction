@@ -1,5 +1,5 @@
 import autoprefixer from 'autoprefixer';
-import tailwind from '@tailwindcss/postcss';
+import tailwind from 'tailwindcss';
 
 /** @type {import('postcss-load-config').Config} */
 const config = {
