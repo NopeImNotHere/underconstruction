@@ -6,7 +6,7 @@
 		"preview": "vite preview",
 		"lint": "svelte-kit sync && eslint --max-warnings 0 --fix . && svelte-check",
 		"build": "vite build",
-		"postinstall": "vite sync",
+		"postinstall": "svelte-kit sync",
 		"dev": "vite dev"
 	},
 	"devDependencies": {
